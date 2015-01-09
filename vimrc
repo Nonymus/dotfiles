@@ -208,3 +208,8 @@ function! HasPaste()
     en
     return ''
 endfunction
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Pathogen Plugin manager
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+execute pathogen#infect() 
